@@ -1,0 +1,11 @@
+//= require rails-ujs
+//= require activestorage
+//= require jquery
+//= require jquery_ujs
+//= require popper
+//= require bootstrap
+//= require admin/vendor/metisMenu.js
+//= require admin/vendor/jquery.slimscroll.js
+//= require admin/vendor/waves.js
+//= require admin/vendor/jquery.waypoints.min.js
+//= require admin/vendor/jquery.counterup.min.js

@@ -1,0 +1,41 @@
+<%- content_for :head_css do %>
+  
+<%= stylesheet_link_tag 'admin/libs/jsgrid/jsgrid.min.css', media: 'all', 'data-turbolinks-track': 'reload' %>
+
+<%= stylesheet_link_tag 'admin/libs/jsgrid/jsgrid-theme.css', media: 'all', 'data-turbolinks-track': 'reload' %>
+
+<% end %>
+<div class="wrapper">
+            <div class="container-fluid">
+
+                <!-- start page title -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="page-title-box">
+                            <div class="page-title-right">
+                                <ol class="breadcrumb m-0">
+                                    <li class="breadcrumb-item"><a href="javascript:%20void(0);">UBold</a></li>
+                                    <li class="breadcrumb-item"><a href="javascript:%20void(0);">Tables</a></li>
+                                    <li class="breadcrumb-item active">JsGrid</li>
+                                </ol>
+                            </div>
+                            <h4 class="page-title">JsGrid Tables</h4>
+                        </div>
+                    </div>
+                </div>     
+                <!-- end page title --> 
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card-box">
+                            <div id="jsGrid"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- end container -->
+        </div><%- content_for :footer_js do %>
+  
+<%= javascript_include_tag 'admin/libs/jsgrid/jsgrid.min.js', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag 'admin/js/pages/jsgrid.init.js', 'data-turbolinks-track': 'reload' %>
+<% end %>

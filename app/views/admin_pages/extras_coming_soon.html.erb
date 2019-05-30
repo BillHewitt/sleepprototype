@@ -1,0 +1,8 @@
+<%- content_for :head_css do %>
+  
+<% end %>
+<%- content_for :footer_js do %>
+  
+<%= javascript_include_tag 'admin/libs/jquery-countdown/jquery.countdown.min.js', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag 'admin/js/pages/coming-soon.init.js', 'data-turbolinks-track': 'reload' %>
+<% end %>

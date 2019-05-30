@@ -1,0 +1,157 @@
+.navbar-custom .topnav-menu .nav-link {
+  padding: 0 15px;
+  color: #6c757d;
+  min-width: 32px;
+  display: block;
+  line-height: 70px;
+  text-align: center;
+  max-height: 70px;
+  outline: none !important;
+}
+
+
+.mdi.mdi-wallet-outline.noti-icon.wallet {
+	font-size: 16px;
+	color: #7d868e;
+	margin-left: -2px;
+}
+
+i.fe-x.space {
+	margin-right: 20px;
+}
+
+
+
+
+
+#topnav .navbar-toggle span {
+  height: 2px;
+  width: 100%;
+  background-color: #6c757d;
+  display: block;
+  margin-bottom: 5px;
+  transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+  transition: transform .5s ease, -webkit-transform .5s ease;
+}
+
+.navbar-custom .topnav-menu .nav-link:hover {
+  color: #0496ff;
+}
+
+.navbar-custom {
+font-size: 15px;
+}
+
+
+@import "admin/_icons";
+
+//Fonts
+@import "admin/custom/fonts/fonts";
+@import "font-awesome";
+
+//Core files
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "admin/_variables";
+@import "bootstrap";
+
+//Components
+@import "admin/custom/components/accordions";
+@import "admin/custom/components/badge";
+@import "admin/custom/components/backgrounds";
+@import "admin/custom/components/breadcrumb";
+@import "admin/custom/components/buttons";
+@import "admin/custom/components/card";
+@import "admin/custom/components/dropdown";
+@import "admin/custom/components/forms";
+@import "admin/custom/components/modal";
+@import "admin/custom/components/nav";
+@import "admin/custom/components/pagination";
+@import "admin/custom/components/popover";
+@import "admin/custom/components/progress";
+@import "admin/custom/components/reboot";
+@import "admin/custom/components/tables";
+@import "admin/custom/components/type";
+
+// Structure
+@import "admin/custom/structure/general";
+@import "admin/custom/structure/horizontal-nav";
+@import "admin/custom/structure/topbar";
+@import "admin/custom/structure/page-head";
+@import "admin/custom/structure/footer";
+@import "admin/custom/structure/right-sidebar";
+
+//Components
+@import "admin/custom/components/helper";
+@import "admin/custom/components/social";
+@import "admin/custom/components/widgets";
+@import "admin/custom/components/custom-checkbox";
+@import "admin/custom/components/custom-radio";
+@import "admin/custom/components/ribbons";
+@import "admin/custom/components/print";
+@import "admin/custom/components/preloader";
+
+//Pages
+@import "admin/custom/pages/authentication";
+@import "admin/custom/pages/components-demo";
+@import "admin/custom/pages/error";
+@import "admin/custom/pages/logout";
+@import "admin/custom/pages/faq";
+@import "admin/custom/pages/maintenance";
+@import "admin/custom/pages/timeline";
+@import "admin/custom/pages/email";
+@import "admin/custom/pages/sitemap";
+@import "admin/custom/pages/search-results";
+@import "admin/custom/pages/pricing";
+@import "admin/custom/pages/gallery";
+@import "admin/custom/pages/coming-soon";
+@import "admin/custom/pages/profile";
+@import "admin/custom/pages/taskboard";
+@import "admin/custom/pages/ecommerce";
+
+
+// Plugins
+@import "admin/custom/plugins/waves";
+@import "admin/custom/plugins/ion-rangeslider";
+@import "admin/custom/plugins/calendar";
+@import "admin/custom/plugins/sparkline-chart";
+@import "admin/custom/plugins/datatable";
+@import "admin/custom/plugins/daterange";
+@import "admin/custom/plugins/form-wizard";
+@import "admin/custom/plugins/select2";
+@import "admin/custom/plugins/slimscroll";
+@import "admin/custom/plugins/toaster";
+@import "admin/custom/plugins/sweetalert";
+@import "admin/custom/plugins/custom-select";
+@import "admin/custom/plugins/tippy";
+@import "admin/custom/plugins/nestable-list";
+@import "admin/custom/plugins/hopscotch";
+@import "admin/custom/plugins/flot";
+@import "admin/custom/plugins/morris";
+@import "admin/custom/plugins/chartjs";
+@import "admin/custom/plugins/chartist";
+@import "admin/custom/plugins/c3";
+@import "admin/custom/plugins/ricksaw";
+@import "admin/custom/plugins/responsive-table";
+@import "admin/custom/plugins/footables";
+@import "admin/custom/plugins/bootstrap-tables";
+@import "admin/custom/plugins/tablesaw";
+@import "admin/custom/plugins/jsgrid";
+@import "admin/custom/plugins/multiple-select";
+@import "admin/custom/plugins/autocomplete";
+@import "admin/custom/plugins/bootstrap-select";
+@import "admin/custom/plugins/bootstrap-touchspin";
+@import "admin/custom/plugins/parsley";
+@import "admin/custom/plugins/flatpickr";
+@import "admin/custom/plugins/clockpicker";
+@import "admin/custom/plugins/summernote";
+@import "admin/custom/plugins/quilljs-editor";
+@import "admin/custom/plugins/dropzone";
+@import "admin/custom/plugins/dropify";
+@import "admin/custom/plugins/x-editable";
+@import "admin/custom/plugins/cropper";
+@import "admin/custom/plugins/google-maps";
+@import "admin/custom/plugins/vector-maps";
+@import "admin/custom/plugins/mapeal-maps";
+@import "admin/custom/plugins/datepicker";
